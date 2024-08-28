@@ -1,0 +1,14 @@
+<div class="parent-container">
+    <h3>Parent Component</h3>
+    <p>Primitive Data: {{ numberData }}</p>
+    <p>Non-Primitive Data: {{ objectData.value }}</p>
+    <button (click)="updatePrimitive()">Update Primitive</button>
+    <button (click)="updateNonPrimitive()">Update Non-Primitive</button>
+  
+    <div class="child-component-wrapper">
+      <app-child [numberData]="numberData" [objectData]="objectData"></app-child>
+    </div>
+  
+    <p>Service Data: {{ getServiceData() }}</p>
+  </div>
+  

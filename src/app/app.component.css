@@ -1,0 +1,14 @@
+.app-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .app-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .app-container .parent-component-wrapper {
+    margin-top: 40px;
+  }
+  

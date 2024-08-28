@@ -1,0 +1,10 @@
+<div class="child-container">
+    <h4>Child Component</h4>
+    <p>Received Primitive Data: {{ numberData }}</p>
+    <p>Received Non-Primitive Data: {{ objectData.value }}</p>
+    <p>Child Data: {{ childData }}</p>
+    <button (click)="updateChildData()">Update Child Data</button>
+  
+    <p>Service Data: {{ getServiceData() }}</p>
+  </div>
+  
